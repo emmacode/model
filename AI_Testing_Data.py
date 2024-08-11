@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
 
-df = pd.read_csv("Excel File/train.csv")
+df = pd.read_csv(r"/Users/moyin/Documents/school/project/Data/NJN/train.csv")
 
 print(df.describe().T)  
 print(df.isnull().sum())
